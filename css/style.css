@@ -1,0 +1,129 @@
+body{}
+
+.banner{}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,8),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0)
+    );
+}
+
+.middle-h{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle-h p{
+    margin: 16px 0;
+    font-size: 32px;
+}
+
+.middle-h h2{
+    margin: 0;
+    font-size: 72px;
+}
+
+.deals{
+    width: 1320px;
+    height: 800px;
+    margin: 120px auto;
+}
+
+.deals-c{
+    text-align: center;
+}
+
+.deals-t{
+    margin-bottom: 48px;
+}
+
+.deals-t h2{
+    font-size: 88px;
+    color: #FF0000;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.deals-t p{
+    font-size: 24px;
+    color: #FF0000;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.deals-t h3{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.container-w{
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.overlay-w{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0,0,0,1.85),
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.1)
+    );
+}
+
+.welcome-box{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.welcome-text{
+    color: white;
+    padding-right: 120px;
+}
+
+.welcome-text h2{
+    font-size: 64px;
+    margin: 0;
+}
+
+.welcome-text p{
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+}
+
+.welcome-text a{
+    font-size: 20px;
+    color: rgb(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: bold;
+}
+
